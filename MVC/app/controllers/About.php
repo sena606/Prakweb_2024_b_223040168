@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 <?php
 
 class About extends Controller
 {
     public function index($nama = 'Sena', $pekerjaan = 'Mahasiswa', $umur = 21)
+=======
+<?php 
+
+class About extends Controller {
+    public function index($nama = 'Sandhika', $pekerjaan = 'Dosen', $umur = 32)
+>>>>>>> 5dfa00939d9b7ca734bacc641def24ad523ce811
     {
         $data['nama'] = $nama;
         $data['pekerjaan'] = $pekerjaan;
@@ -20,4 +27,12 @@ class About extends Controller
         $this->view('about/page');
         $this->view('templates/footer');
     }
+<<<<<<< HEAD
 }
+=======
+}
+
+
+
+
+>>>>>>> 5dfa00939d9b7ca734bacc641def24ad523ce811
